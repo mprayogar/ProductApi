@@ -1,0 +1,18 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.db
+*.user
+*.suo
+.vscode/
+
+# Build results
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Others
+*.DS_Store
