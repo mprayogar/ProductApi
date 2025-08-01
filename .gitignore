@@ -16,3 +16,7 @@ obj/
 
 # Others
 *.DS_Store
+
+Logs/
+*.log
+
