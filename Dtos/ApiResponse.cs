@@ -24,8 +24,7 @@ namespace ProductApi.dtos
 
         public static ApiResponse<T> Fail(string message) =>
             new ApiResponse<T> { Status = "fail", Message = message };
-
-        // ✅ Tambahkan overload ini:
+            
         public static ApiResponse<T> Fail(T data, string message) =>
             new ApiResponse<T> { Status = "fail", Message = message, Data = data };
     }

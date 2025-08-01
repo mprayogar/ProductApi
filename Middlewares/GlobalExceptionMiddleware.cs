@@ -23,7 +23,7 @@ namespace ProductApi.middlewares
         {
             try
             {
-                await _next(context); // lanjutkan request ke middleware/controller berikutnya
+                await _next(context); 
             }
             catch (Exception ex)
             {
