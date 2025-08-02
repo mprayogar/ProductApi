@@ -26,7 +26,7 @@ ProductApi is a simple RESTful API built with ASP.NET Core (.NET 8) and Entity F
 3. Apply database migrations:
    dotnet ef database update
 4. Run the application:
-   dotnet run
+   dotnet run --launch-profile https
 5. Open your browser and access Swagger UI:
    http://localhost:5156/swagger/index.html
 
